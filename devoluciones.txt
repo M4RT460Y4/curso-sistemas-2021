@@ -1,0 +1,14 @@
+Bloque 1/2/3
+============
+
+Edición mediante el inspeccionador: OK
+
+Formulario GET/POST: Pendiente
+
+Calculadora: Muy buen trabajo.
+Detallecito:  <meta charset="utf.8"
+Este elemento no está cerrado con >
+El resto está perfecto.
+
+Manejo de GIT: OK. Repositorio limpio.
+
