@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 <head>
     <meta charset="utf.8">
 </head>
@@ -8,12 +8,17 @@
     <form action="localhost/curso-sistemas-2021/index.php" method="POST">
 
         <table>
+            <tr>
+                <td>
+                    Create Account
+                </td>
+            </tr>
             <tr> 
                 <td>
                     <label>First Name *</label> <br></br>
                     <input type="text" name="nombre" value="enter your first name"> </input>
                 </td>
-                <br></br>
+                
                 <td>
                     <label>Last Name</label> <br></br>
                     <input type="text" name="apellido" value="enter your last name"> </input>
@@ -23,32 +28,77 @@
             <tr>
                  <td>
                      <label>Email*</label> <br><br>
-                     <input type="email" name="email"></tr>
+                     <input type="email" name="email"></input>
                  </td>
             </tr>
 
             <tr>
-                 <td></td>
-                 <td></td>
+                 <td>
+                    <label>Password *</label> <br></br>
+                    <input type="password" name="contraseña"> </input>
+                 </td>
+                 <td>
+                    <label>Confirm Password *</label> <br></br>
+                    <input type="password" name="conf.contraseña"> </input>
+                 </td>
             </tr>
 
             <tr>
-                 <td></td>
-                 <td></td>
+                 <td>
+                    <label>Gender</label> <br></br>
+                    <input type=radio name="Género" value="M"></input>
+                    <label>Male</label>
+                    <input type=radio name="Género" value="F"></input>
+                    <label>Female</label>
+                 </td>
+                 <td>
+                    <label>Hobbies</label> <br></br>
+                    <input type="checkbox" name="Hobbies" value="Music"></input>
+                    <label>Music</label>
+                    <input type="checkbox" name="Hobbies" value="Sports"></input>
+                    <label>Sports</label>
+                    <input type="checkbox" name="Hobbies" value="Travel"></input>
+                    <label>Travel</label>
+                    <input type="checkbox" name="Hobbies" value="Movies"></input>
+                    <label>Movies</label>
+                 </td>
             </tr>
 
             <tr>
-                 <td></td>
-                 <td></td> 
+                 <td>
+                     <label>Source of Income</label> <br></br> 
+                     <select name="fuente de ingresos" id="fuente de ingresos">
+                        <option value="Unemployed">Unemployed</option>
+                    </select>
+                 </td>
+                 <td>
+                    <label>Income</label> <br></br>
+                    <input type="range" name="Income" min="0" max="20K"></input> <label>20K</label>
+                 </td> 
             </tr>
 
             <tr>
-                 <td></td>
-                 <td></td>
+                 <td>
+                    <label>Upload profile picture</label><br></br>
+                    <input type="file" name="profile pic"></input>
+                 </td>
+                 <td>
+                    <label>Age</label> <br></br>
+                    <input type="text" name="Age" Value="18"></input>
+                 </td>
              </tr>
 
             <tr>
-                 <td></td>
+                 <td>
+                     <label>Bio</label> <br></br>
+                     <textarea name="Bio"></textarea>
+                 </td>
+             </tr>
+
+             <tr>
+                 <td>
+                     <input type="submit" value=Create></input>
+                 </td>
              </tr>
 
         </table>

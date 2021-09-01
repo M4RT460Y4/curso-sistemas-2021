@@ -1,0 +1,49 @@
+.boton-azul
+{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 100%;
+
+    background-color:blue;
+}
+
+.boton-amarillo
+{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 100%;
+
+    background-color:yellow;
+}
+    
+
+.boton-rojo
+{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 100%;
+
+    background-color:red;
+}
+
+.boton-verde
+{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 100%;
+
+    background-color:green;
+}
+
+.visor
+{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 100%;
+  
+}
